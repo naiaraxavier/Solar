@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class SolarSystem extends Component {
   render() {
     return (
-      <div>SolarSystem</div>
+      <div data-testid="solar-system">SolarSystem</div>
     );
   }
 }
