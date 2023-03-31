@@ -1,9 +1,5 @@
-/* stylelint-disable-next-line selector-pseudo-element-colon-notation */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
 * {
+  box-sizing: border-box;
   margin: 0;
 }
 
@@ -29,7 +25,3 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-/* stylelint-disable-next-line selector-max-specificity */
-#root, #__next {
-  isolation: isolate;
-}
