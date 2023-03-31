@@ -1,0 +1,20 @@
+.container__missions {
+  background: rgba(255, 255, 255, 0.455);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 2276px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 160px;
+  width: 1098px;
+}
+
+
+.container__missions--card {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-around;
+  width: 100%;
+}

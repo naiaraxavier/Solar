@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import '../css/Title.css';
 
 export default class Title extends Component {
   render() {
     const { headline } = this.props;
     return (
-      <h2>{headline}</h2>
+      <h2 className="h2__title">{headline}</h2>
     );
   }
 }

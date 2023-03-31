@@ -1,0 +1,13 @@
+.container__footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.container__footer img {
+  margin-bottom: 40px;
+  margin-right: 20px;
+  width: 50px;
+}
+

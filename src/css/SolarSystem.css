@@ -1,0 +1,17 @@
+.container__solarSystem {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__solarSystem--planets {
+  align-items: center;
+  background: linear-gradient(to right, white, white) no-repeat center;
+  background-size: 100% 1px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+}
+
+.container__solarSystem--planets p {
+  align-items: end;
+}
